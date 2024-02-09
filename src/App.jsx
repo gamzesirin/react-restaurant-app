@@ -1,7 +1,7 @@
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
-import { Route, Routes } from 'react-router-dom'
+import { Link, Route, Routes } from 'react-router-dom'
 
 import About from './pages/About'
 import Blogs from './pages/Blogs'
@@ -16,12 +16,12 @@ function App() {
 		<>
 			<Header />
 			<Routes>
-				<Route path="/" exact element={<Home />} />
-				<Route path="/about" element={<About />} />
-				<Route path="/menu" element={<Menu />} />
-				<Route path="/blogs" element={<Blogs />} />
-				<Route path="/contact" element={<Contact />} />
-				<Route path="/review" element={<Review />} />
+				<Link to="/" exact element={<Home />} />
+				<Link to="/about" element={<About />} />
+				<Link to="/menu" element={<Menu />} />
+				<Link to="/blogs" element={<Blogs />} />
+				<Link to="/contact" element={<Contact />} />
+				<Link to="/review" element={<Review />} />
 			</Routes>
 		</>
 	)
