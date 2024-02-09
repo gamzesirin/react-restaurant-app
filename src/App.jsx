@@ -16,12 +16,12 @@ function App() {
 		<>
 			<Header />
 			<Routes>
-				<Link to="/" exact element={<Home />} />
-				<Link to="/about" element={<About />} />
-				<Link to="/menu" element={<Menu />} />
-				<Link to="/blogs" element={<Blogs />} />
-				<Link to="/contact" element={<Contact />} />
-				<Link to="/review" element={<Review />} />
+				<Route path="/" exact element={<Home />} />
+				<Route path="/about" element={<About />} />
+				<Route path="/menu" element={<Menu />} />
+				<Route path="/blogs" element={<Blogs />} />
+				<Route path="/contact" element={<Contact />} />
+				<Route path="/review" element={<Review />} />
 			</Routes>
 		</>
 	)
