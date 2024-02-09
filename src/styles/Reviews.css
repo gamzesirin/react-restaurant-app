@@ -1,0 +1,38 @@
+section {
+	padding: 3.5rem 7%;
+}
+.heading {
+	color: #000000;
+	text-transform: uppercase;
+	font-size: 3rem;
+	margin-bottom: 1.5rem;
+	border-bottom: 0.1rem solid #000000;
+}
+.review .box-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+	gap: 1.5rem;
+}
+.review .box-container .box {
+	border: var(--border);
+	text-align: center;
+	padding: 2rem 1rem;
+	background-color: #ffffff;
+	border-radius: 3rem;
+}
+.img1 {
+	width: 10rem;
+	height: 10rem;
+	border-radius: 50%;
+	margin-bottom: 1rem;
+	object-fit: cover;
+}
+.p1 {
+	color: #000000;
+}
+.user {
+	width: 7rem;
+	height: 7rem;
+	border-radius: 50%;
+	object-fit: cover;
+}

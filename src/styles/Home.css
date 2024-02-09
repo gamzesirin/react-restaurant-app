@@ -1,0 +1,40 @@
+section {
+	padding: 3.5rem 7%;
+}
+.home {
+	min-height: 100vh;
+	background: url('../images/home.jpg') no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin-top: -11.5rem;
+	display: flex;
+	align-items: center;
+}
+h1 {
+	font-size: 3rem;
+	font-weight: 700;
+	color: #fff;
+}
+p {
+	font-size: 1rem;
+
+	line-height: 1.5;
+	color: #fff;
+}
+.btn {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	background-color: red;
+	color: #fff;
+	outline: none;
+	border: none;
+	padding: 0.5rem 1rem;
+	border-radius: 0.5rem;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+.btn:hover {
+	background-color: #fff;
+	color: red;
+	outline: none;
+}
